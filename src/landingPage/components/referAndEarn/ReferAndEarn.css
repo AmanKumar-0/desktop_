@@ -4,6 +4,7 @@
     justify-content: space-between;
     width: 84%;
     margin: auto;
+    margin-top: 2rem;
 }  
     
 
@@ -15,7 +16,7 @@
     grid-template-areas:
         "A B C"
         "D D D";
-    padding: 10px 10px 35px;
+    padding: 20px 10px;
     width: 40%;
     height: 8rem;
     justify-content: space-around;
@@ -115,4 +116,40 @@ color: #FFFFFF;
   margin: auto;
   border-radius: 8px;
   background: #ffffff;
+}
+
+
+
+@media all and (min-width:0px) and (max-width:768px){
+    .referral{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        justify-content: space-between;
+        width: 84%;
+        margin: auto;
+        margin-top: 2rem;
+    }  
+
+    .refer-and-earn{
+        grid-template-areas:
+            "A B"
+            "C D";
+        width: 100%;
+        text-align: center;
+    }
+
+    .Referral4 {
+        width: 67%;
+    }
+
+    .referral-code-heading{
+        margin-top: 20px;
+    }
+
+    .referral-code{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }

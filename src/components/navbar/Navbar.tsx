@@ -1,7 +1,8 @@
 import React from 'react'
-import logo from "../../assets/logo.svg"
-import profile from "../../assets/profile.svg"
-import dropdown from "../../assets/dropdown.svg"
+import logo from "../../assets/images/logo.svg"
+import profile from "../../assets/images/profile.svg"
+import dropdown from "../../assets/images/dropdown.svg"
+import dropdownWhite from "../../assets/images/dropdownWhite.svg"
 import "./Navbar.css"
 import Breadcrumbs from '../breadcrumbs/Breadcrumbs'
 
@@ -11,12 +12,13 @@ const Navbar = () => {
     <div className='navbar'>
     <img src={logo} alt='logo'className='logo'/>
     <div className='nav-tiles'>
-        <h4 style={{color: "rgba(128, 0, 128, 0.25)"}}>My Assignment</h4>
-        <h4 style={{color: "rgba(128, 0, 128, 0.25)"}}>Chat with Mentor</h4>
+        <h4 className='nav-assignment'>My Assignment</h4>
+        <h4 className='nav-mentor'>Chat with Mentor</h4>
         <div className='nav-tiles-profile'>
-          <img src={profile} alt='profile'/>
-          <h4 style={{color: "#800080"}}>Profile Name</h4>
-          <img src={dropdown} alt='dropdown'/>
+          <img className="nav-tile-profile-acc" src={profile} alt='profile'/>
+          <h4 className='nav-tile-profile-name'>Profile Name</h4>
+          <img className='nav-tile-dropdown' src={dropdown} alt='dropdown'/>
+          <img className='nav-tile-white-dropdown' src={dropdownWhite} alt='dropdown'/>
         </div>
     </div>
     </div>
