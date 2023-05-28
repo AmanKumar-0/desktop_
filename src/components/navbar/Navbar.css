@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: auto;
+}
+.nav-tiles {
+    /* position: absolute; */
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 28px;
+width: 519px;
+height: 24px;
+left: 990px;
+
+}
+.nav-tiles-profile{
+    display: flex;
+flex-direction: row;
+padding: 0px;
+gap: 4px;
+
+/* width: 167px;
+height: 24px; */
+}
+
+.logo{
+    /* position: absolute; */
+width: 160px;
+height: 63px;
+left: 74px;
+top: 6px;
+}

@@ -1,0 +1,16 @@
+.breadcrumbs{
+    /* position: absolute; */
+    /* width: 138px; */
+    height: 21px;
+    /* left: 187px; */
+    /* top: 103px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    background: #FFFFFF;
+    margin-left: 122px;
+    margin-top: 34px;
+}
