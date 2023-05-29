@@ -1,11 +1,5 @@
-.breadcrumbs{
-    /* position: absolute; */
-    /* width: 138px; */
+.breadcrumbs {
     height: 21px;
-    /* left: 187px; */
-    /* top: 103px; */
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -15,21 +9,19 @@
     margin-top: 34px;
 }
 
+.breadcrumbs1 {
+    cursor: pointer;
+}
+
 @media all and (min-width: 0px) and (max-width: 768px) {
-    .breadcrumbs{
-            /* position: absolute; */
-            /* width: 138px; */
-            height: 21px;
-            /* left: 187px; */
-            /* top: 103px; */
-            font-family: 'Poppins';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 21px;
-            color: #000000;
-            background: #FFFFFF;
-            margin-left: 35px;
-            margin-top: 34px;
-        }
+    .breadcrumbs {
+        height: 21px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        background: #FFFFFF;
+        margin-left: 35px;
+        margin-top: 34px;
+    }
 }

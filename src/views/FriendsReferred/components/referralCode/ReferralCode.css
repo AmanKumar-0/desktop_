@@ -1,0 +1,77 @@
+.friends {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.friends-container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.friends-container1 {
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #800080;
+}
+
+.friends-container1>p {
+    text-align: center;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75rem;
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 6px 3px;
+    border: 2px solid rgba(128, 128, 128, 0.315);
+    margin-top: 5px;
+    color: #000000;
+}
+
+.friends-container2 {
+    height: 70px;
+    left: 1034px;
+    top: 151px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    padding: auto;
+}
+
+.friends-container2-span>h3 {
+    width: 105px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #800080;
+}
+
+.friends-container2-span>p {
+    width: 45px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.friends-container2-span {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+@media all and (min-width:0px) and (max-width:768px) {
+    .friends {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        width: 90%;
+        margin: 2rem auto 0px auto;
+    }
+}

@@ -1,17 +1,17 @@
-.referral{
+.referral {
     display: flex;
     padding: 10px;
     justify-content: space-between;
     width: 84%;
     margin: auto;
     margin-top: 2rem;
-}  
-    
+}
 
-.refer-and-earn{
+
+.refer-and-earn {
     background: #fff;
     border-radius: 20px;
-    box-shadow: 0 3px 100px rgba(0,0,0,.1);
+    box-shadow: 0 3px 100px rgba(0, 0, 0, .1);
     display: grid;
     grid-template-areas:
         "A B C"
@@ -22,33 +22,33 @@
     justify-content: space-around;
 }
 
-.withdraw{
+.withdraw {
     margin: 0px;
     height: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 148px;
-height: 24px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-color: #FFFFFF;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 
 }
 
 .Referral1 {
     grid-area: A;
 }
+
 .Referral2 {
     grid-area: B;
 }
+
 .Referral3 {
     grid-area: C;
 }
+
 .Referral4 {
     grid-area: D;
     background: purple;
@@ -57,17 +57,11 @@ color: #FFFFFF;
     margin: auto;
     padding: 8px 16px;
     text-align: center;
-    width: 30%;
     display: flex;
 }
 
 
-.card-heading{
-    /* Referral Earning */
-
-
-    font-family: 'Poppins';
-    font-style: normal;
+.card-heading {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -78,14 +72,9 @@ color: #FFFFFF;
 }
 
 
-.card-value{
-    /* ₹ 2,500 */
-
-
+.card-value {
     width: 116px;
     height: 48px;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 48px;
@@ -95,33 +84,33 @@ color: #FFFFFF;
 
 .referral-code-heading {
     color: #800080;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
 }
 
-.referral-code-value{
+.referral-code-value {
     background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
-      border-radius: 10px;
-      padding: 1.5px;
-      text-align: center;
+    border-radius: 10px;
+    padding: 1.5px;
+    text-align: center;
 }
 
-.referral-code-value-show{
+.referral-code-value-show {
     color: #800080;
-  letter-spacing: 1.5rem;
-  line-height: 40px;
-  font-size: 20px;
-  font-weight: 500;
-  margin: auto;
-  border-radius: 8px;
-  background: #ffffff;
+    letter-spacing: 1.5rem;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    border-radius: 8px;
+    background: #ffffff;
 }
 
 
 
-@media all and (min-width:0px) and (max-width:768px){
-    .referral{
+@media all and (min-width:0px) and (max-width:768px) {
+    .referral {
         display: flex;
         flex-direction: column;
         padding: 10px;
@@ -129,9 +118,9 @@ color: #FFFFFF;
         width: 84%;
         margin: auto;
         margin-top: 2rem;
-    }  
+    }
 
-    .refer-and-earn{
+    .refer-and-earn {
         grid-template-areas:
             "A B"
             "C D";
@@ -139,15 +128,11 @@ color: #FFFFFF;
         text-align: center;
     }
 
-    .Referral4 {
-        width: 67%;
-    }
-
-    .referral-code-heading{
+    .referral-code-heading {
         margin-top: 20px;
     }
 
-    .referral-code{
+    .referral-code {
         display: flex;
         flex-direction: column;
         gap: 10px;

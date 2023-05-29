@@ -1,0 +1,161 @@
+.Friennds-enrolled {
+    margin-top: 60px;
+}
+
+.Friennds-enrolled>h3 {
+    height: 30px;
+    left: 189px;
+    top: 296px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #800080;
+}
+
+.Friennds-enrolled-number {
+    font-weight: 100;
+    color: grey;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    color: #ffffff;
+    width: 95%;
+    overflow: auto;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 20px;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+
+.card {
+    background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    width: 300px;
+}
+
+.card-header>h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.card-header>p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 5px;
+}
+
+.card-header+p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 0px;
+    margin: 5px;
+}
+
+.courses-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 5px;
+    overflow-x: auto;
+    height: 70px;
+    gap: 0px;
+}
+
+.courses-list::-webkit-scrollbar {
+    display: none;
+}
+
+.course {
+    padding: 0px 5px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.course>p {
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 1px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 0px;
+}
+
+.course+h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+}
+
+.amount {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.terms {
+
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #800080;
+
+}
+
+
+
+@media all and (min-width:0px) and (max-width:768px) {
+    .Friennds-enrolled {
+        width: 90%;
+        margin: 60px auto 0px auto;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .courses-list::-webkit-scrollbar {
+        display: inline;
+        width: 5px;
+    }
+
+    .courses-list::-webkit-scrollbar-track {
+        background-color: transparent;
+        /* Set the background color of the scrollbar track */
+    }
+
+    .courses-list::-webkit-scrollbar-thumb {
+        background-color: #EEAEAE;
+        /* Set the color of the scrollbar thumb */
+        border-radius: 5px;
+        /* Set the border radius of the scrollbar thumb */
+    }
+
+    .courses-list::-webkit-scrollbar-thumb:hover {
+        background-color: #FF0000;
+        /* Set the color of the scrollbar thumb on hover */
+    }
+}

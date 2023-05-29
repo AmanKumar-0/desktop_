@@ -1,18 +1,11 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Navbar from './components/navbar/Navbar';
-import LandingPage from './landingPage/LandingPage';
-import FriendsReferred from './views/FriendsReferred/FriendsReferred';
+import React from "react";
+import "./App.css";
+import Layout from "./layout/Layout";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Routes>
-        <Route index path="/" element={<LandingPage/>}/>
-        <Route path="/friends-referred" element={<FriendsReferred/>}/>
-      </Routes>
+      <Layout />
     </div>
   );
 }

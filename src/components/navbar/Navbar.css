@@ -5,85 +5,81 @@
     margin: auto;
     align-items: center;
 }
+
 .nav-tiles {
-    /* position: absolute; */
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 0px;
-gap: 28px;
-width: 519px;
-height: 24px;
-left: 990px;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 28px;
+    height: 24px;
+    left: 990px;
 
 }
-.nav-tiles-profile{
+
+.nav-tiles-profile {
     display: flex;
-flex-direction: row;
-padding: 0px;
-gap: 4px;
-
-/* width: 167px;
-height: 24px; */
+    flex-direction: row;
+    padding: 0px;
+    gap: 4px;
 }
 
-.logo{
-    /* position: absolute; */
-width: 160px;
-height: 63px;
-left: 74px;
-top: 6px;
+.logo {
+    width: 160px;
+    height: 63px;
+    left: 74px;
+    top: 6px;
 }
 
-.nav-assignment, .nav-mentor {
+.nav-assignment,
+.nav-mentor {
     color: rgba(128, 0, 128, 0.25)
 }
 
-.nav-tile-profile-name{
-   color: #800080
+.nav-tile-profile-name {
+    color: #800080
 }
 
-.nav-tile-white-dropdown{
+.nav-tile-white-dropdown {
     display: none;
 }
 
 @media all and (min-width: 0px) and (max-width: 768px) {
-    .nav-assignment, .nav-mentor {
+
+    .nav-assignment,
+    .nav-mentor {
         display: none;
     }
-   
+
     .nav-tiles-profile {
         display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 25px;
-gap: 10px;
-background: #800080;
-border-radius: 10px;
-color: #000;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 25px;
+        gap: 10px;
+        background: #800080;
+        border-radius: 10px;
+        color: #000;
     }
+
     .nav-tile-profile-name {
-        width: 99px;
-height: 24px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-
-
-color: #FFFFFF;
+        height: 24px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
     }
-    .nav-tile-dropdown{
+
+    .nav-tile-dropdown {
         display: none;
     }
-    .nav-tile-white-dropdown{
+
+    .nav-tile-white-dropdown {
         display: flex;
     }
-    .nav-tile-profile-acc{
+
+    .nav-tile-profile-acc {
         display: none;
     }
 }
